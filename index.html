@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Trabalho</title>
+  </head>
+  <body class="container">
+    <div class="main">
+      <div class="line">
+        <text> (R) Vermelho </text>
+        <input
+          class="range"
+          type="range"
+          name="red"
+          id="red"
+          min="0"
+          max="255"
+        />
+        <input class="colorValue" id="redText" type="text" disabled />
+      </div>
+
+      <div class="line">
+        <text> (G) Verde </text>
+        <input
+          class="range"
+          type="range"
+          name="green"
+          id="green"
+          min="0"
+          max="255"
+        />
+        <input class="colorValue" id="greenText" type="text" disabled />
+      </div>
+
+      <div class="line">
+        <text> (B) Blue </text>
+        <input
+          class="range"
+          type="range"
+          name="blue"
+          id="blue"
+          min="0"
+          max="255"
+        />
+        <input class="colorValue" id="blueText" type="text" disabled />
+      </div>
+    </div>
+
+    <div class="square" id="square"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
